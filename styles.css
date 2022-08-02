@@ -1,21 +1,28 @@
 @font-face {
-    font-family: TTLakes;
-    src: url("fonts/TTLakes-Regular.woff");
+    font-family: 'TTLakes';
+    src: url("fonts/TTLakes-Regular.woff") format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-    font-family: TTLakes-bold;
-    src: url("fonts/TTLakes-Bold.woff");
+    font-family: 'TTLakes';
+    src: url("fonts/TTLakes-Bold.woff") format('woff');
+    font-weight: bold;
+    font-style: normal;
 }
 @font-face {
-    font-family: TTLakes-medium;
-    src: url("fonts/TTLakes-Medium.woff");
+    font-family: 'TTLakes';
+    src: url("fonts/TTLakes-Medium.woff") format('woff');
+    font-weight: medium;
+    font-style: normal;
 }
 @media screen and (max-width: 767.98px) {
     body {
         width: auto;
         margin: 0;
         background-color: #F8F8F8;
-        font-family: TTLakes;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: normal;
     }
     .header {
         display: flex;
@@ -65,7 +72,8 @@
     }
     .services__Heading {
         height: 40px;
-        font-family: TTLakes-bold;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: bold;
         font-size: 28px;
         color: #1B1C21;
         padding-left: 16px;
@@ -104,6 +112,8 @@
     .services__description-text {
         width: 288px;
         margin: 24px 16px 16px 16px;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: normal;
         font-size: 14px;
         line-height: 18px;
     }
@@ -116,7 +126,8 @@
         background-color: #F8F8F8;
         background: url("images/expand.svg") no-repeat;
         background-position: center left;
-        font-family: TTLakes-medium;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: 500;
         font-size: 16px;
         padding: 0 0 0 32px;
         width: 135px;
@@ -134,7 +145,7 @@
         width: auto;
         margin: 0;
         background-color: #F8F8F8;
-        font-family: TTLakes;
+        font-family: 'TTLakes';
     }
     .header {
         display: flex;
@@ -187,7 +198,8 @@
     }
     .services__Heading {
         height: 40px;
-        font-family: TTLakes-bold;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: bold;
         font-size: 28px;
         color: #1B1C21;
         padding-left: 16px;
@@ -246,7 +258,8 @@
         background-color: #F8F8F8;
         background: url("images/expand.svg") no-repeat;
         background-position: center left;
-        font-family: TTLakes-medium;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: medium;
         font-size: 16px;
         padding: 0 0 0 32px;
         width: 135px;
@@ -264,7 +277,7 @@
         width: auto;
         margin: 0;
         background-color: #F8F8F8;
-        font-family: TTLakes;
+        font-family: 'TTLakes';
     }
     .header {
         display: none;
@@ -276,7 +289,8 @@
     }
     .services__Heading {
         height: 40px;
-        font-family: TTLakes-bold;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: bold;
         font-size: 28px;
         color: #1B1C21;
         padding-left: 16px;
@@ -292,7 +306,8 @@
         background: url("images/repair.svg") no-repeat;
         background-position: center right;
         padding-right: 48px;
-        font-family: TTLakes-medium;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: medium;
         font-size: 16px;
     }
     .services__menu-checkstatus {
@@ -304,7 +319,8 @@
         background: url("images/checkstatus.svg") no-repeat;
         background-position: center right;
         padding-right: 48px;
-        font-family: TTLakes-medium;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: medium;
         font-size: 16px;
     }
     .slideMenu__list {
@@ -339,6 +355,8 @@
         margin-top: 24px;
         margin-left: 24px;
         font-size: 14px;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: normal;
         line-height: 20px;
     }
     .services__description-second-text {
@@ -346,6 +364,8 @@
         width: 490px;
         margin-left: 24px;
         font-size: 14px;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: normal;
         line-height: 20px;
         overflow: hidden;
     }
@@ -355,7 +375,8 @@
         background-color: #F8F8F8;
         background: url("images/expand.svg") no-repeat;
         background-position: center left;
-        font-family: TTLakes-medium;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: medium;
         font-size: 16px;
         padding: 0 0 0 32px;
         width: 135px;
