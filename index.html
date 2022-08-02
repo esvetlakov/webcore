@@ -9,18 +9,25 @@
         <title>CPS Service</title>
     </head>
     <body>
-        <header class="header-menu">
-           <img src="images/burger.svg" alt="123" class="header-menu__burger">
-           <img src="images/group.svg" alt="Логотип компании CPS" class="header-menu__logo">
-           <img src="images/repair.svg" alt="123" class="header-menu__repair">
-           <img src="images/checkstatus.svg" alt="123" class="header-menu__checkstatus">
+        <header class="header">
+            <a href="#" class="header__burger header__navlink"><img src="images/burger.svg" alt="меню" class=""></a>
+            <a href="#" class="header__logo header__navlink"><img src="images/group.svg" alt="лого" class=""></a>
+            <a href="#" class="header__call header__navlink"><img src="images/call.svg" alt=""></a>
+            <a href="#" class="header__chat header__navlink"><img src="images/chat.svg" alt=""></a>
+            <a href="#" class="header__profile header__navlink"><img src="images/profile.svg" alt=""></a>
+            <a href="#" class="header__repair header__navlink"><img src="images/repair.svg" alt="ремонт" class=""></a>
+            <a href="#" class="header__checkstatus header__navlink"><img src="images/checkstatus.svg" alt="статус ремонта" class=""></a>
         </header>
         <main class="main-content">
             <div class="services">
-                <h1 class="services__Heading">Услуги и сервисы</h1>
+                <div class="services__menu">
+                    <h1 class="services__Heading">Услуги и сервисы</h1>
+                    <button class="services__menu-repair">Оставить заявку</button>
+                    <button class="services__menu-checkstatus">Статус ремонта</button>
+                </div>
                 <div class="slideMenu">
                     <ul class="slideMenu__list">
-                        <li class="slideMenu__item slideMenu__item_active">Ремонтируемые бренды</li>
+                        <li class="slideMenu__item slideMenu__item--active">Ремонтируемые бренды</li>
                         <li class="slideMenu__item">Ремонтируемые устройства</li>
                         <li class="slideMenu__item">Цены на услуги</li>
                         <li class="slideMenu__item">Адреса сервисных центров</li>
@@ -28,11 +35,14 @@
                         <li class="slideMenu__item">Отзывы</li>
                     </ul>
                 </div> 
-                    <p class="main-menu__selected-item">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                    <div class="main-menu__show-more">
-                        <button class="main-menu__button">Читать далее</button>
-                    </div>
-                    <img src="images/picture.png" alt="" class="temp-image">
+                <article class="services__description">
+                    <div>
+                        <p class="services__description-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                        <p class="services__description-second-text">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                        <button class="services__description-button">Читать далее</button>
+                    </div> 
+                    <img src="images/picture.jpg" alt="" class="services__description-photo">
+                </article>
             </div>
         </main>
     </body>
