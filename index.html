@@ -10,40 +10,40 @@
     </head>
     <body>
         <header class="header">
-            <a href="#" class="header__burger header__navlink"><img src="images/burger.svg" alt="меню" class=""></a>
-            <a href="#" class="header__logo header__navlink"><img src="images/group.svg" alt="лого" class=""></a>
-            <a href="#" class="header__call header__navlink"><img src="images/call.svg" alt=""></a>
-            <a href="#" class="header__chat header__navlink"><img src="images/chat.svg" alt=""></a>
-            <a href="#" class="header__profile header__navlink"><img src="images/profile.svg" alt=""></a>
-            <a href="#" class="header__repair header__navlink"><img src="images/repair.svg" alt="ремонт" class=""></a>
-            <a href="#" class="header__checkstatus header__navlink"><img src="images/checkstatus.svg" alt="статус ремонта" class=""></a>
+            <a href="#" class="header__link header__burger"></a>
+            <div class="header__divider divider__start"></div>
+            <a href="#" class="header__link header__logo"><img src="images/logo.svg" alt="лого" class=""></a>
+            <a href="#" class="header__link header__call"></a>
+            <a href="#" class="header__link header__chat"></a>
+            <a href="#" class="header__link header__profile"></a>
+            <div class="header__divider divider__end"></div>
+            <a href="#" class="header__link header__repair"></a>
+            <a href="#" class="header__link header__checkstatus"></a>
         </header>
-        <main class="main-content">
-            <div class="services">
-                <div class="services__menu">
-                    <h1 class="services__Heading">Услуги и сервисы</h1>
-                    <button class="services__menu-repair">Оставить заявку</button>
-                    <button class="services__menu-checkstatus">Статус ремонта</button>
-                </div>
-                <div class="slideMenu">
-                    <ul class="slideMenu__list">
-                        <li class="slideMenu__item slideMenu__item--active">Ремонтируемые бренды</li>
-                        <li class="slideMenu__item">Ремонтируемые устройства</li>
-                        <li class="slideMenu__item">Цены на услуги</li>
-                        <li class="slideMenu__item">Адреса сервисных центров</li>
-                        <li class="slideMenu__item">Специальные цены</li>
-                        <li class="slideMenu__item">Отзывы</li>
-                    </ul>
-                </div> 
-                <article class="services__description">
-                    <div>
-                        <p class="services__description-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
-                        <p class="services__description-second-text">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
-                        <button class="services__description-button">Читать далее</button>
-                    </div> 
-                    <img src="images/picture.jpg" alt="" class="services__description-photo">
-                </article>
+        <main class="services">
+            <div class="services__menu">
+                <h1 class="services__Heading">Услуги и сервисы</h1>
+                <a href="#" class="services__repair">Оставить заявку<div class="repair-icon"></div></a>
+                <a href="#" class="services__checkstatus">Статус ремонта<div class="checkstatus-icon"></div></a>
             </div>
+            <nav class="slideMenu">
+                <ul class="slideMenu__list">
+                    <li class="slideMenu__item slideMenu__item--active">Ремонтируемые бренды</li>
+                    <li class="slideMenu__item">Ремонтируемые устройства</li>
+                    <li class="slideMenu__item">Цены на услуги</li>
+                    <li class="slideMenu__item">Адреса сервисных центров</li>
+                    <li class="slideMenu__item">Специальные цены</li>
+                    <li class="slideMenu__item">Отзывы</li>
+                </ul>
+            </nav>
+            <article class="services__description">
+                <div>
+                    <p class="services__description-text">Мы являемся авторизованным сервисным центром по ремонту техники Dell. Только у нас вы можете отремонтировать свой ноутбук Dell с официальной гарантией производителя.</p>
+                    <p class="services__description-second-text">Мы успешно работаем с 1992 года и заслужили репутацию надежного партнера, что подтверждает большое количество постоянных клиентов. Мы гордимся тем, что к нам обращаются по рекомендациям и, в свою очередь, советуют нас родным и близким.</p>
+                    <button class="services__description-button services__expand">Читать далее</button>
+                </div>
+                <img src="images/picture.jpg" alt="" class="services__description-photo">
+            </article>
         </main>
     </body>
 </html>
