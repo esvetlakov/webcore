@@ -459,6 +459,7 @@ body {
 }
 .button--close {
     margin-left: 24px;
+    align-self: center;
 }
 .side-menu__logo {
     margin-left: 16px;
@@ -466,6 +467,7 @@ body {
 .button--search {
     margin-left: auto;
     margin-right: 24px;
+    align-self: center;
 }
 .side-menu__navigation {
     margin-top: 50px;
