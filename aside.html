@@ -11,32 +11,36 @@
     <body>
         <aside class="side-menu">
             <div class="side-menu__header">
-                <button class="side-menu__button close-icon"></button>
+                <button class="button button--close"></button>
                 <a href="" class="side-menu__logo"><img src="images/logo.svg" alt="лого" class=""></a>
-                <button class="side-menu__button search-icon"></button>
+                <button class="button button--search"></button>
             </div>
-            <nav class="side-menu__nav-links">
-                <a href="#" class="side-menu__link active">Ремонт техники</a>
-                <a href="#" class="side-menu__link">Услуги и сервисы</a>
-                <a href="#" class="side-menu__link">Корпоративным клиентам</a>
-                <a href="#" class="side-menu__link">Продавцам техники</a>
-                <a href="#" class="side-menu__link">Партнерам</a>
-                <a href="#" class="side-menu__link">Производителям</a>
-                <a href="#" class="side-menu__link">Наши сервисные центры</a>
-                <a href="#" class="side-menu__link">Контакты</a>
+            <nav class="side-menu__navigation">
+                <ul class="links-list">
+                    <li class="list-item active"><a href="#" class="side-menu__link">Ремонт техники</a></li>
+                    <li class="list-item"><a href="#" class="side-menu__link">Услуги и сервисы</a></li>
+                    <li class="list-item"><a href="#" class="side-menu__link">Корпоративным клиентам</a></li>
+                    <li class="list-item"><a href="#" class="side-menu__link">Продавцам техники</a></li>
+                    <li class="list-item"><a href="#" class="side-menu__link">Партнерам</a></li>
+                    <li class="list-item"><a href="#" class="side-menu__link">Производителям</a></li>
+                    <li class="list-item"><a href="#" class="side-menu__link">Наши сервисные центры</a></li>
+                    <li class="list-item"><a href="#" class="side-menu__link">Контакты</a></li>
+                </ul>
             </nav>
             <div class="side-menu__footer">
                 <div class="footer-buttons">
-                    <button class="side-menu__button call-icon"></button>
-                    <button class="side-menu__button chat-icon"></button>
-                    <button class="side-menu__button profile-icon"></button>
+                    <button class="button button--call"></button>
+                    <button class="button button--chat"></button>
+                    <button class="button button--profile"></button>
                 </div>
                 <a href="mailto:mail@cps.com" class="side-menu__link mail-link">mail@cps.com</a>
                 <a href="tel:+78008908900" class="side-menu__link phone-link">8 800 890 8900</a>
-                <div class="footer-language">
-                    <button class="language-button current-lang">RU</button>
-                    <button class="language-button">EN</button>
-                    <button class="language-button">CH</button>
+                <div class="language">
+                    <ul class="language-list">
+                        <li class="language-list__item"><button class="language-button current-lang">RU</button></li>
+                        <li class="language-list__item"><button class="language-button">EN</button></li>
+                        <li class="language-list__item"><button class="language-button">CH</button></li>
+                    </ul>
                 </div>
             </div>
         </aside>
