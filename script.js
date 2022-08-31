@@ -1,4 +1,4 @@
-let expandButton = document.querySelector('.repairable-brands__expand-button');
+let expandButton = document.querySelector('.services__expand-button');
 let brandsWrapper = document.querySelector('.repairable-brands__wrapper');
 
 
