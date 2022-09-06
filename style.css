@@ -339,7 +339,8 @@
   @media (min-width: 1366px) {
     .main-content__photo {
       margin-top: 16px;
-      margin-left: 24px;
+      margin-left: auto;
+      margin-right: 24px;
       width: 501px;
       height: 307px; } }
   .main-content--hidden {
