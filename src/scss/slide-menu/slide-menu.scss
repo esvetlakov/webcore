@@ -1,0 +1,33 @@
+.slide-menu {
+    
+    &__list {
+        margin: 0;
+        height: 40px;
+        margin-left: 16px;
+        padding: 0;
+        display: flex;
+        list-style-type: none;
+        overflow-x: scroll;
+        @media (min-width: 1366px) {
+            flex-wrap: wrap;
+            overflow-x: initial;
+        }
+    }
+
+    &__item {
+        color: $gray;
+        padding: 10px;
+        flex-shrink: 0;
+    }
+
+    &__list::-webkit-scrollbar {
+        height: 0;
+    }
+
+    &__item--active {
+        border: 2px solid $color-secondary;
+        padding: 8px;
+        border-radius: 6px;
+        background-color: white;
+    }
+}

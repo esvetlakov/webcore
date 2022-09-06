@@ -1,0 +1,78 @@
+.header {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 88px;
+    background-color: white;
+    border-bottom: $color-secondary solid 1px;
+    
+
+    @media screen and (max-width: 767.98px) {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        max-width: 767.98px;
+        z-index: 150;
+    }
+
+    @media (min-width: 768px) and (max-width: 1365.98px) {
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        max-width: 100%;
+        z-index: 150;
+        
+        &--hidden {
+            display: none;
+        }
+    }
+
+    @media (min-width: 1366px) {
+        display: none;   
+    }
+
+    &__logo {
+        width: 96.55px;
+        margin-left: 16px;
+        margin-right: auto;
+        height: 52px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    &__divider {
+        width: 2px;
+        height: 40px;
+        border-radius: 1px;
+        margin: 0;
+        background-color: $gray-lighten;
+    }
+
+    &__divider--left {
+        @media screen and (max-width: 767.98px) {
+            display: none;
+        }
+    
+        @media (min-width: 768px) and (max-width: 1365.98px) {
+            margin-left: 20px; 
+        }
+    }
+
+    &__divider--right {
+        @media screen and (max-width: 767.98px) {
+            margin-right: 18px;
+        }
+    
+        @media (min-width: 768px) and (max-width: 1365.98px) {
+            margin-right: 20px;   
+        }
+    }
+
+    &--hidden {
+        display: none;
+    }
+}

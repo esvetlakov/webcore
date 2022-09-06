@@ -1,0 +1,43 @@
+@import './colors/colors.scss';
+@import './container/container.scss';
+@import './header/header.scss';
+@import './sidebar/sidebar.scss';
+@import './main-content/main-content.scss';
+@import './button/button.scss';
+@import './price-mobile/price-mobile.scss';
+@import './expand-button/expand-button.scss';
+@import './slide-menu/slide-menu.scss';
+@import './repairable-brands/repairable-brand.scss';
+@import './repairable-devices/repairable-devices.scss';
+@import './repair-prices/repair-prices.scss';
+@import './price-table/price-table.scss';
+@import './footer/footer.scss';
+@import './modal/modal.scss';
+@import './swiper/swiper.scss';
+
+@font-face {
+    font-family: 'TTLakes';
+    src: url("../fonts/TTLakes-Regular.woff") format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    src: url("../fonts/TTLakes-Bold.woff") format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TTLakes';
+    src: url("../fonts/TTLakes-Medium.woff") format('woff');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+    background-color: $gray-lighten;
+}

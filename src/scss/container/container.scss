@@ -1,0 +1,8 @@
+.container {
+    @media (min-width: 1366px) {
+        justify-content: center;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: $gray-lighten;
+    }
+}

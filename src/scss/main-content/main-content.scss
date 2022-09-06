@@ -1,0 +1,157 @@
+.main-content {
+    font-family: 'TTLakes', sans-serif;
+    letter-spacing: -0.2px;
+    font-weight: normal;
+
+    @media screen and (max-width: 1365.98px) {
+        padding-top: 89px;
+    }
+    
+    @media (min-width: 1366px) {
+        margin-top: 5px;
+        padding-left: 320px;
+    }
+
+    &__menu {
+        @media (min-width: 1366px) {
+            margin-right: 0;
+            display: flex;
+        }
+    }
+    &__heading {
+        height: 40px;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: bold;
+        font-size: 28px;
+        color: $color-text;
+        padding-left: 16px;
+        background: url("data:image/svg+xml,%3Csvg width='4' height='40' viewBox='0 0 4 40' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M4 4C4 1.79086 2.20914 0 0 0V0V40V40C2.20914 40 4 38.2091 4 36V4Z' fill='%2341F6D7'/%3E%3C/svg%3E%0A") no-repeat;
+    }
+
+    &__repair {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 32px;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        text-decoration: none;
+        color: #1B1C21;
+        margin-left: auto;
+
+        @media screen and (max-width: 1365.98px) {
+            display: none;
+        }
+
+    }
+
+    &__repair:hover > .button--repair{
+        transition: 0.1s linear;
+        background-color: $color-hover;
+    }
+
+    &__checkstatus {
+        margin-top: auto;
+        margin-bottom: auto;
+        margin-right: 24px;
+        font-family: 'TTLakes', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        text-decoration: none;
+        color: #1B1C21;
+
+        @media screen and (max-width: 1365.98px) {
+            display: none;
+        }
+    }
+
+    &__checkstatus:hover > .button--checkstatus {
+        transition: 0.1s linear;
+        background-color: $color-hover;
+    }
+
+    &__description {
+        display: flex;
+        flex-direction: column;
+
+        @media (min-width: 768px) and (max-width: 1365.98px) {
+            flex-direction: row;
+        }
+        
+        @media (min-width: 1366px) {
+            margin-top: 20px;
+            flex-direction: row;
+        }
+    }
+
+    &__description-text {
+        margin: 24px 16px 16px 16px;
+        font-size: 14px;
+        line-height: 18px;
+
+        @media screen and (max-width: 767.98px) {
+            max-height: 70px;
+            overflow: hidden;
+            transition: max-height 0.3s linear;
+        }
+
+        @media (min-width: 768px) and (max-width: 1365.98px) {
+            width: 400px;
+            margin-top: 24px;
+            margin-left: 24px;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px; 
+            max-height: 100px;
+            overflow: hidden;
+            transition: max-height 0.3s linear;
+        }
+
+        @media (min-width: 1366px) {
+            width: 400px;
+            margin-top: 24px;
+            margin-left: 24px;
+            font-size: 14px;
+            line-height: 20px;
+            letter-spacing: 0.2px; 
+            max-height: 100px;
+            overflow: hidden;
+            transition: max-height 0.3s linear;
+        }
+
+        &--expanded {
+            max-height: 250px;
+            transition: max-height 0.3s linear;
+        }
+    }
+
+    &__photo {
+        @media screen and (max-width: 767.98px) {
+            margin-top: 16px;
+            width: 320px;
+            height: 176px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        @media (min-width: 768px) and (max-width: 1365.98px) {
+            margin-top: 24px;
+            margin-left: auto;
+            margin-right: 16px;
+            max-width: 320px;
+            height: auto; 
+        }
+
+        @media (min-width: 1366px) {
+            margin-top: 16px;
+            margin-left: auto;
+            margin-right: 24px;
+            width: 501px;
+            height: 307px;
+        }
+    }
+    
+    &--hidden {
+        display: none;
+    }
+}
