@@ -824,10 +824,6 @@
   height: 100%;
   z-index: 154;
   font-family: 'TTLakes', sans-serif; }
-  @media (min-width: 1366px) {
-    .modal {
-      right: 5%;
-      left: 5%; } }
   .modal__heading {
     height: 40px;
     font-family: 'TTLakes', sans-serif;
@@ -856,9 +852,6 @@
         left: 0;
         bottom: 0;
         width: auto; } }
-    @media (min-width: 1366px) {
-      .modal__feedback {
-        right: 5%; } }
   .modal__call {
     position: fixed;
     right: 0;
@@ -876,9 +869,6 @@
         left: 0;
         bottom: 0;
         width: auto; } }
-    @media (min-width: 1366px) {
-      .modal__call {
-        right: 5%; } }
   .modal__input:not(:last-child) {
     margin-top: 16px;
     width: 376px;
