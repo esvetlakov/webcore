@@ -22,7 +22,9 @@
       right: 0;
       top: 0;
       max-width: 100%;
-      z-index: 150; } }
+      z-index: 150; }
+      .header--hidden {
+        display: none; } }
   @media (min-width: 1120px) {
     .header {
       display: none; } }
@@ -60,7 +62,8 @@
   left: 0;
   top: 0;
   width: 100%;
-  height: 100%; }
+  height: 100%;
+  z-index: 151; }
   .sidebar__wrapper {
     position: fixed;
     top: 0px;
