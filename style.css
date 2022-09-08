@@ -485,7 +485,8 @@
   background-repeat: no-repeat;
   background-position: 120px 150px; }
   .price-mobile__pagination {
-    top: 280px; }
+    top: 280px;
+    height: 21.5px; }
   .price-mobile__heading {
     font-size: 14px;
     color: #7E7E82;
