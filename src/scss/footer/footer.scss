@@ -19,14 +19,15 @@
     }
 
     &__copyright {
-        margin-left: 24px;
+        margin: 0;
         text-align: center;
         color: $gray;
 
-        @media (min-width: 768px) and (max-width: 1365.98px) {
+        @media (min-width: 768px) {
             text-align: left;
             margin-left: 24px;
         }
+        
     }
 
     &__confidential {
