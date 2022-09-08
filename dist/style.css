@@ -511,6 +511,7 @@
   font-family: 'TTLakes', sans-serif;
   font-weight: 500;
   font-size: 16px;
+  color: #1B1C21;
   padding: 0 0 0 16px;
   width: 135px;
   background-repeat: no-repeat;
@@ -681,7 +682,8 @@
     font-family: 'TTLakes', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 24px; }
+    line-height: 24px;
+    color: #1B1C21; }
     @media (min-width: 768px) and (max-width: 1365.98px) {
       .repairable-devices__button {
         width: 224px;
@@ -717,6 +719,7 @@
     font-family: 'TTLakes', sans-serif;
     font-weight: 500;
     font-size: 16px;
+    color: #1B1C21;
     line-height: 24px;
     margin-left: 24px;
     padding: 0;
@@ -781,7 +784,9 @@
   @media (min-width: 768px) {
     .footer {
       flex-direction: row;
-      justify-content: space-between; } }
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-bottom: 6px; } }
   .footer__copyright {
     margin: 0;
     text-align: center;
@@ -809,10 +814,10 @@
         width: 213px;
         height: 48px;
         margin-right: 24px; } }
-    @media (min-width: 1120px) {
+    @media (min-width: 1366px) {
       .footer__offer {
         text-align: right;
-        width: 213px;
+        width: 273px;
         height: 48px;
         margin-right: 24px; } }
   .footer--hidden {
@@ -890,19 +895,25 @@
   .modal__input::-webkit-input-placeholder {
     color: #7E7E82;
     font-size: 14px;
-    font-family: 'TTLakes', sans-serif; }
+    font-family: 'TTLakes', sans-serif;
+    opacity: 0.5; }
   .modal__input::-moz-placeholder {
     color: #7E7E82;
     font-size: 14px;
-    font-family: 'TTLakes', sans-serif; }
+    font-family: 'TTLakes', sans-serif;
+    opacity: 0.5; }
   .modal__input:-ms-input-placeholder {
     color: #7E7E82;
     font-size: 14px;
-    font-family: 'TTLakes', sans-serif; }
+    font-family: 'TTLakes', sans-serif;
+    opacity: 0.5; }
   .modal__input::placeholder {
     color: #7E7E82;
     font-size: 14px;
-    font-family: 'TTLakes', sans-serif; }
+    font-family: 'TTLakes', sans-serif;
+    opacity: 0.5; }
+  .modal__input-textarea {
+    height: auto !important; }
   .modal__form {
     display: flex;
     flex-direction: column;
