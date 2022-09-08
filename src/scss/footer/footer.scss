@@ -8,12 +8,11 @@
     font-size: 14px;
     width: 100%;
 
-    @media (min-width: 768px) and (max-width: 1365.98px) {
-        flex-direction: row;
-        justify-content: space-between;
+    @media screen and (max-width: 765.98px) {
+        gap: 16px;
     }
 
-    @media (min-width: 1120px) {
+    @media (min-width: 768px) {
         flex-direction: row;
         justify-content: space-between;
     }
@@ -22,6 +21,10 @@
         margin: 0;
         text-align: center;
         color: $gray;
+
+        @media screen and (max-width: 765.98px) {
+            margin-top: 10px;
+        }
 
         @media (min-width: 768px) {
             text-align: left;
@@ -41,6 +44,7 @@
         text-align: center;
         color: $gray;
         width: 85%;
+        margin: 0;
         
         @media (min-width: 768px) and (max-width: 1365.98px) {
             text-align: right;
