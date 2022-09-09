@@ -19,6 +19,11 @@
         padding-bottom: 6px;
     }
 
+    &__link {
+        text-decoration: none;
+        color: $gray;
+    }
+
     &__copyright {
         margin: 0;
         text-align: center;

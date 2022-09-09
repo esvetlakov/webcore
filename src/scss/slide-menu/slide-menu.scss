@@ -20,6 +20,11 @@
         flex-shrink: 0;
     }
 
+    &__link {
+        text-decoration: none;
+        color: $gray;
+    }
+
     &__list::-webkit-scrollbar {
         height: 0;
     }
